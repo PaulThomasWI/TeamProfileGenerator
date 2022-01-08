@@ -1,0 +1,31 @@
+* { box-sizing: border-box; }
+
+:root {
+    --primary: #006747;
+    --secondary: white;
+}
+
+body { font-family: Consolas, Arial, Helvetica, sans-serif; }
+
+#navbar {
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-size: 36px;
+}
+
+.navbar-brand { font-size: 36px; } 
+
+.container {
+    margin: 36px auto;
+    justify-content: space-evenly;
+    display: flex;
+}
+.card-header {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.card-body {
+    background-color: lightgray;
+    color: var(--primary);
+}
