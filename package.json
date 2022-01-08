@@ -1,0 +1,23 @@
+{
+  "name": "teamprofilegenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulThomasWI/TeamProfileGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulThomasWI/TeamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/PaulThomasWI/TeamProfileGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "jest": "^27.4.7"
+  }
+}
